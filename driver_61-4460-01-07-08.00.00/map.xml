@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<item>
+		<varname>OUT_BS_SIGNAL_LIGHTS</varname>
+		<frname>Вкл. Сигнальных фонарей ТКВ уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_SIGNAL_LIGHTS</varname>
+		<frname>Вкл. Сигнальных фонарей НТКВ уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_ENABLE_LIGHTING_CNTRL</varname>
+		<frname>Готовность МСУЭВ к управлению освещением (вкл. 2К20) уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_TRAINMAN_LIGHTS_LED</varname>
+		<frname>Дежурное освещение кор. и тамбура ТКВ, умывального отделения, кладовой и котельной уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_BS_GANGWAY_LUM</varname>
+		<frname>Освещение переходных площадок уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_TRAINMAN_LIGHTS_LUM</varname>
+		<frname>Основное освещение кор. и тамбура ТКВ, умывального отделения, кладовой и котельной уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_PASSAGE_LED</varname>
+		<frname>Дежурное освещения большого кор. и тамбура НТКВ, бара уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_PASSAGE_LUM</varname>
+		<frname>Основное освещение большого кор. и тамбура НТКВ, бара уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_SALON_LED_1GRP</varname>
+		<frname>Дежурное освещение салона группы 1 (верхнее) уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_SALON_LUM_1GRP</varname>
+		<frname>Основное освещение салона группы 1 (верхнее) уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_KITCHEN_LED</varname>
+		<frname>Дежурное освещение моечного отделения, кухни уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_KITCHEN_LUM</varname>
+		<frname>Основное освещение моечного отделения, кухни уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_SALON_LUM_2GRP</varname>
+		<frname>Освещение салона группы 2 (боковое), местного освещения кухни, салона уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_HOLD_POWER</varname>
+		<frname>«Удержание» при «Штатном» отключении электрооборудования уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_INSUL_TEST_110V_PLUS</varname>
+		<frname>Контроль изоляции сети 110В(+) уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_INSUL_TEST_110V</varname>
+		<frname>Контроль изоляции сети 110В(-) уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_HV_HEAT_1GRP_ON_1</varname>
+		<frname>Вкл. 1гр. ВВ отопления уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_HV_HEAT_2GRP_ON_1</varname>
+		<frname>Вкл. 2гр. ВВ отопления уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_HV_HEAT_CHECK</varname>
+		<frname>Проверка работы коммутационных аппаратов ВВ отопления (при отсутствии 3 кВ) уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_HV_HEAT_PUMP</varname>
+		<frname>Вкл. насоса и вентилей ВВ отопления уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_CP_ADD_HEAT_1GRP</varname>
+		<frname>Включение НВ электрокалорифера УКВ 1 группа (салон) уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_CP_ADD_HEAT_2GRP</varname>
+		<frname>Включение НВ электрокалорифера УКВ 2 группа (кухня) уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_BURNER_CNTRL</varname>
+		<frname>Подача питания на горелку СВОП-КП уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_UKV_FAN_ON</varname>
+		<frname>Вкл. вентиляторов приточных УКВ уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_UKV_COMPR_ON_1</varname>
+		<frname>Вкл. Компрессора 1 УКВ уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_UKV_COMPR_ON_2</varname>
+		<frname>Вкл. Компрессора  2 УКВ уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_EM_LIQ_VALVE_ON_1</varname>
+		<frname>Подключение ЭРВ вентиля L3 УКВ (Салон)</frname>
+	</item>
+	<item>
+		<varname>OUT_EM_LIQ_VALVE_ON_2</varname>
+		<frname>Подключение ЭРВ вентиля L4 УКВ (Кухня)</frname>
+	</item>
+	<item>
+		<varname>OUT_EM_VALVE_ON_1</varname>
+		<frname>Подключение вентиля байпаса L5 УКВ (Салон)</frname>
+	</item>
+	<item>
+		<varname>OUT_EM_VALVE_ON_2</varname>
+		<frname>Подключение вентиля байпаса L6 УКВ (Кухни)</frname>
+	</item>
+	<item>
+		<varname>OUT_COMBI_OVEN_1</varname>
+		<frname>Подача питания на пароконвектомат 1 уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_WC_WASTEPIPE_HEAT</varname>
+		<frname>Включение обогрева угольника унитаза и труб уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_0_1_PCH</varname>
+		<frname>0 разряд кода задания производ. 1 канала ПЧ уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_1_1_PCH</varname>
+		<frname>1 разряд кода задания производ. 1 канала ПЧ уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_2_1_PCH</varname>
+		<frname>2 разряд кода задания производ. 1 канала ПЧ уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_3_1_PCH</varname>
+		<frname>3 разряд кода задания производ. 1 канала ПЧ уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_KITCHEN_BOILER</varname>
+		<frname>Водонагреватель кухни уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_WC_BOILER</varname>
+		<frname>Водонагреватель туалетов уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_BAR_BOILER</varname>
+		<frname>Водонагреватель бара уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_HTANK_ANTIFREEZ_HEAT</varname>
+		<frname>Вкл. жидкостного обогрева бака-накопителя уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_HTANK_ELECTRO_HEAT</varname>
+		<frname>Вкл. электрообогрева бака-накопителя уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_HTANK_ON</varname>
+		<frname>Включение в работу ЭЧТ уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_5KMH</varname>
+		<frname>V больше 5км/ч для блокировки дверей уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_LOUD_NOTIFICATION</varname>
+		<frname>Громкое оповещение уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_CALL_THE_TRAINMAN</varname>
+		<frname>Звуковой сигнал (5НА1) – вызов проводника уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_FUEL_LINE_HEAT</varname>
+		<frname>Жидкостный обогрев топливопровода уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_UKV_PCH_PROTECT_RST</varname>
+		<frname>Сброс защиты УКВ и ПЧ уп.</frname>
+	</item>
+	<item>
+		<varname>IN_EXT_380V</varname>
+		<frname>Питание вагона от внешней сети 380 В</frname>
+	</item>
+	<item>
+		<varname>IN_DGA_WORK</varname>
+		<frname>Работа ДГА – Резервное питание</frname>
+	</item>
+	<item>
+		<varname>IN_LIQUID_HEATS_TEMP_5C</varname>
+		<frname>Температура жидкостных калориферов ниже +5 С</frname>
+	</item>
+	<item>
+		<varname>IN_UKV_FAN_ON</varname>
+		<frname>Вкл. вентиляторов приточных М3, М4</frname>
+	</item>
+	<item>
+		<varname>IN_SKV_MANUAL_CNTRL</varname>
+		<frname>Переход на РУЧНОЕ УПРАВЛЕНИЕ СКВ</frname>
+	</item>
+	<item>
+		<varname>IN_AIR_FLTR_FAIL_KITCHN</varname>
+		<frname>Засор фильтров воздуха УКВ кухня</frname>
+	</item>
+	<item>
+		<varname>IN_AIR_FLTR_FAIL_SALON</varname>
+		<frname>Засор фильтров воздуха УКВ салон</frname>
+	</item>
+	<item>
+		<varname>IN_UKV_FAN_FAILURE</varname>
+		<frname>Авария приточных вентиляторов М3, М4</frname>
+	</item>
+	<item>
+		<varname>IN_COND_FAN_FAILURE</varname>
+		<frname>Авария вентиляторов конденсаторов М5- М8</frname>
+	</item>
+	<item>
+		<varname>IN_AIR_DECONT_1_CNTRL_1</varname>
+		<frname>Обеззараживатель воздуха салона контроль 1</frname>
+	</item>
+	<item>
+		<varname>IN_AIR_DECONT_1_CNTRL_2</varname>
+		<frname>Обеззараживатель воздуха салона контроль 2</frname>
+	</item>
+	<item>
+		<varname>IN_AIR_DECONT_1_ON</varname>
+		<frname>Обеззараживатель воздуха  салона — работа</frname>
+	</item>
+	<item>
+		<varname>IN_AIR_DECONT_1_FAILURE</varname>
+		<frname>Обеззараживатель воздуха  салона — не работа</frname>
+	</item>
+	<item>
+		<varname>IN_UOV_RESOURCE</varname>
+		<frname>Ресурс УФЛ</frname>
+	</item>
+	<item>
+		<varname>IN_UOV_CONTROL</varname>
+		<frname>Контроль УФЛ</frname>
+	</item>
+	<item>
+		<varname>IN_380_DGA</varname>
+		<frname>Наличие 3 фазы ~380В, 50Гц на выходе с ДГА</frname>
+	</item>
+	<item>
+		<varname>IN_AIR_DECONT_2_CNTRL_1</varname>
+		<frname>Обеззараживатель воздуха кухни контроль 1</frname>
+	</item>
+	<item>
+		<varname>IN_AIR_DECONT_2_CNTRL_2</varname>
+		<frname>Обеззараживатель воздуха кухни контроль 2</frname>
+	</item>
+	<item>
+		<varname>IN_AIR_DECONT_2_ON</varname>
+		<frname>Обеззараживатель воздуха  кухни — работа</frname>
+	</item>
+	<item>
+		<varname>IN_AIR_DECONT_2_FAILURE</varname>
+		<frname>Обеззараживатель воздуха  кухни — не работа</frname>
+	</item>
+	<item>
+		<varname>IN_LOW_HTANK_TEMP</varname>
+		<frname>Низкая температура в баке ЭЧТ</frname>
+	</item>
+	<item>
+		<varname>IN_HTANK_LEVEL_95</varname>
+		<frname>95 заполнение бака ЭЧТ</frname>
+	</item>
+	<item>
+		<varname>IN_HTANK_LEVEL_80</varname>
+		<frname>80 заполнение бака ЭЧТ</frname>
+	</item>
+	<item>
+		<varname>IN_HTANK_LEVEL_10</varname>
+		<frname>10 заполнение бака ЭЧТ</frname>
+	</item>
+	<item>
+		<varname>IN_HTANK_POWER</varname>
+		<frname>Наличие питания на цепях управления ЭЧТ</frname>
+	</item>
+	<item>
+		<varname>IN_HTANK_ON</varname>
+		<frname>Подача команды на включение ЭЧТ</frname>
+	</item>
+	<item>
+		<varname>IN_VACUUM_UNIT_ON</varname>
+		<frname>Работа (сигнал исправности) ЭЧТ</frname>
+	</item>
+	<item>
+		<varname>IN_WC_EXHAUST_FAN</varname>
+		<frname>Вытяжной вентилятор туалета 1, моечного отделения</frname>
+	</item>
+	<item>
+		<varname>IN_BS_TAKEOUT_ALARM</varname>
+		<frname>Вызывная сигнализация ТКВ (дверь торцевая)</frname>
+	</item>
+	<item>
+		<varname>IN_TAKEOUT_ALARM</varname>
+		<frname>Вызывная сигнализация НТКВ (дверь торцевая)</frname>
+	</item>
+	<item>
+		<varname>IN_HTANK_ANTFR_HEAT_MNL</varname>
+		<frname>Ручной режим жидкостного обогрева бака-накопителя</frname>
+	</item>
+	<item>
+		<varname>IN_HTANK_EL_HEAT_MNL</varname>
+		<frname>Ручной режим электрообогрева бака-накопителя</frname>
+	</item>
+	<item>
+		<varname>IN_HIGH_P_UKV</varname>
+		<frname>Давление хладагента УКВ (высокое)</frname>
+	</item>
+	<item>
+		<varname>IN_LOW_P_UKV</varname>
+		<frname>Давление хладагента УКВ (низкое)</frname>
+	</item>
+	<item>
+		<varname>IN_BOIL_P_UKV</varname>
+		<frname>Давление хладагента УКВ (кипения)</frname>
+	</item>
+	<item>
+		<varname>IN_UKV_AIR_FLAPS</varname>
+		<frname>Положение заслонки рециркуляции воздуха Y1 (салон) УКВ</frname>
+	</item>
+	<item>
+		<varname>IN_UKV_VALVE_1</varname>
+		<frname>Положение заслонки наружного воздуха Y2 (салон) УКВ</frname>
+	</item>
+	<item>
+		<varname>IN_UKV_VALVE_2</varname>
+		<frname>Положение заслонки наружного воздуха Y3 (кухня) УКВ</frname>
+	</item>
+	<item>
+		<varname>OUT_UKV_FAN_PROD_1</varname>
+		<frname>Управление (задание производительности) вентилятором приточным М3 (салон) УКВ уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_UKV_FAN_PROD_2</varname>
+		<frname>Управление (задание производительности) вентилятором приточным М4 (кухня) УКВ уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_UKV_FAN_PROD_3</varname>
+		<frname>Управление (задание производительности) вентиляторами конденсатора М5-М8 УКВ уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_UKV_AIR_FLAPS</varname>
+		<frname>Управление (открытие) заслонки рециркуляции воздуха Y1 (салон) УКВ уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_UKV_VALVE_1</varname>
+		<frname>Управление (открытие) заслонки наружного воздуха Y2 (салон) УКВ уп.</frname>
+	</item>
+	<item>
+		<varname>OUT_UKV_VALVE_2</varname>
+		<frname>Управление (открытие) заслонки наружного воздуха Y3 (кухня) УКВ уп.</frname>
+	</item>
+	<item>
+		<varname>IN_OUTDOOR_AIR_TEMP</varname>
+		<frname>Температура наружного воздуха</frname>
+	</item>
+	<item>
+		<varname>IN_KITCHEN_TEMP</varname>
+		<frname>Температура воздуха на кухне</frname>
+	</item>
+	<item>
+		<varname>IN_BS_SIGNAL_LIGHTS</varname>
+		<frname>Сигнальные фонари ТКВ</frname>
+	</item>
+	<item>
+		<varname>IN_SIGNAL_LIGHTS</varname>
+		<frname>Сигнальные фонари НТКВ</frname>
+	</item>
+	<item>
+		<varname>IN_TRAINMAN_LIGHTS_LED</varname>
+		<frname>Дежурное освещение кор. и тамбура ТКВ, умывального отделения, кладовой и котельной</frname>
+	</item>
+	<item>
+		<varname>IN_BS_GANGWAY</varname>
+		<frname>Освещение переходной площадки ТКВ</frname>
+	</item>
+	<item>
+		<varname>IN_WC_LED</varname>
+		<frname>Дежурное освещение туалета</frname>
+	</item>
+	<item>
+		<varname>IN_PASSAGE_LED</varname>
+		<frname>Дежурное освещение большого кор. и тамбура НТКВ, бара</frname>
+	</item>
+	<item>
+		<varname>IN_GANGWAY</varname>
+		<frname>Освещение переходной площадки НТКВ</frname>
+	</item>
+	<item>
+		<varname>IN_SALON_LED_1GRP</varname>
+		<frname>Дежурное освещение салона группы 1 (верхнее)</frname>
+	</item>
+	<item>
+		<varname>IN_KITCHEN_LED</varname>
+		<frname>Дежурное освещение моечного отделения и кухни</frname>
+	</item>
+	<item>
+		<varname>IN_SALON_LUM_2GRP</varname>
+		<frname>Основное освещение салона группы 2 (боковое), местное освещение кухни и салона</frname>
+	</item>
+	<item>
+		<varname>IN_SALON_LUM_1GRP</varname>
+		<frname>Основное освещение салона группы 1 (верхнее)</frname>
+	</item>
+	<item>
+		<varname>IN_KITCHEN_LUM</varname>
+		<frname>Основное освещение моечного отделения и кухни</frname>
+	</item>
+	<item>
+		<varname>IN_TRAINMAN_LIGHTS_LUM</varname>
+		<frname>Основное освещение кор. и тамбура ТКВ, умывального отделения, кладовой и котельной</frname>
+	</item>
+	<item>
+		<varname>IN_WC_LUM</varname>
+		<frname>Основное освещение туалета</frname>
+	</item>
+	<item>
+		<varname>IN_PASSAGE_LUM</varname>
+		<frname>Основное освещение большого кор., тамбура НТКВ, бара </frname>
+	</item>
+	<item>
+		<varname>IN_AUTO_LIGHTING_CNTRL</varname>
+		<frname>Освещение в режиме управления от СКДУ (2S4)</frname>
+	</item>
+	<item>
+		<varname>IN_TURN_OFF_ELECTRICS</varname>
+		<frname>Штатное отключение электрооборудования</frname>
+	</item>
+	<item>
+		<varname>IN_CONN_TO_M110V</varname>
+		<frname>Подключение к М 110 В</frname>
+	</item>
+	<item>
+		<varname>IN_POWER_HUB</varname>
+		<frname>Питание на узле управления электроснабжением (в т.ч. на РКИ)</frname>
+	</item>
+	<item>
+		<varname>IN_LOW_INSUL_RES_110V</varname>
+		<frname>Низкое сопротивление изоляции =110В</frname>
+	</item>
+	<item>
+		<varname>IN_MAN_INSUL_CNTRL_110V</varname>
+		<frname>Контроль изоляции сети 110В. ручн. режим ТЕСТ УКИ</frname>
+	</item>
+	<item>
+		<varname>IN_BOILER_OVERHEAT</varname>
+		<frname>Перегрев котла</frname>
+	</item>
+	<item>
+		<varname>IN_3000_VOLTS</varname>
+		<frname>Наличие 3000 В</frname>
+	</item>
+	<item>
+		<varname>IN_HEAT_PROT_RESET</varname>
+		<frname>Сброс дифф. защиты ВВ отопления</frname>
+	</item>
+	<item>
+		<varname>IN_LOW_HEAT_CARRIER_LEVEL</varname>
+		<frname>Низкий уровень теплоносителя в котле</frname>
+	</item>
+	<item>
+		<varname>IN_HV_BOX_COVER_OPENED</varname>
+		<frname>Положение крышки ВВ ящика</frname>
+	</item>
+	<item>
+		<varname>IN_SKV_MACHINE_ON</varname>
+		<frname>Автомат цепей управления СКВ</frname>
+	</item>
+	<item>
+		<varname>IN_HV_HT_DIFF_PROT_1GRP</varname>
+		<frname>Срабатывание дифф. защиты ВВ отопления 1гр.</frname>
+	</item>
+	<item>
+		<varname>IN_HV_HT_DIFF_PROT_2GRP</varname>
+		<frname>Срабатывание дифф. защиты ВВ отопления 2гр.</frname>
+	</item>
+	<item>
+		<varname>IN_BOILER_COVER_OPENED</varname>
+		<frname>Открыта крышка котла</frname>
+	</item>
+	<item>
+		<varname>IN_HV_HEAT_1GRP_1</varname>
+		<frname>1гр. ВВ отопления</frname>
+	</item>
+	<item>
+		<varname>IN_HV_HEAT_2GRP_1</varname>
+		<frname>2гр. ВВ отопления</frname>
+	</item>
+	<item>
+		<varname>IN_EMERGENCY_LIGHT_CNTRL</varname>
+		<frname>Управление освещением при аварийном отключении</frname>
+	</item>
+	<item>
+		<varname>IN_DEFAULT_HV_VALVES</varname>
+		<frname>Электромеханические краны в исходном положении (самоциркуляция теплоносителя)</frname>
+	</item>
+	<item>
+		<varname>IN_WORK_HV_VALVES</varname>
+		<frname>Электромеханические краны в положении работы насоса ВВ отопления</frname>
+	</item>
+	<item>
+		<varname>IN_HV_PUMP_ON</varname>
+		<frname>Насос ВВ отопления включен</frname>
+	</item>
+	<item>
+		<varname>IN_CP_ADD_HEAT_1GRP</varname>
+		<frname>Включение НВ электрокалорифера УКВ 1 группа (салон)</frname>
+	</item>
+	<item>
+		<varname>IN_CP_ADD_HEAT_2GRP</varname>
+		<frname>Включение НВ электрокалорифера УКВ 2 группа (кухня)</frname>
+	</item>
+	<item>
+		<varname>IN_BURNER_WORK</varname>
+		<frname>Работа горелки</frname>
+	</item>
+	<item>
+		<varname>IN_BURNER_220V</varname>
+		<frname>Подано напряжение питания на горелку СВОПВ-КП</frname>
+	</item>
+	<item>
+		<varname>IN_BURNER_QF_220V</varname>
+		<frname>Подача напряжения на горелку и обогрев топливопровода (включен автомат 3Q5)</frname>
+	</item>
+	<item>
+		<varname>IN_AUTO_BURNER_CNTRL</varname>
+		<frname>Включен автоматический режим пуска горелки СВОПВ-КП (через оборудование СКДУ)</frname>
+	</item>
+	<item>
+		<varname>IN_220_COMPR_1</varname>
+		<frname>Подача питания на включение контактора компрессора 1 УКВ</frname>
+	</item>
+	<item>
+		<varname>IN_220_COMPR_2</varname>
+		<frname>Подача питания на включение контактора компрессора 2 УКВ</frname>
+	</item>
+	<item>
+		<varname>IN_CONT_COMPR_ON_1</varname>
+		<frname>Включение контактора компрессора 1 УКВ</frname>
+	</item>
+	<item>
+		<varname>IN_CONT_COMPR_ON_2</varname>
+		<frname>Включение контактора компрессора 2 УКВ</frname>
+	</item>
+	<item>
+		<varname>IN_FIRE_DMPRS_CLOSED</varname>
+		<frname>Противопожарные клапаны закрыты</frname>
+	</item>
+	<item>
+		<varname>IN_UKV_FAN_MACHN_ON</varname>
+		<frname>Включение автоматического выключателя 4Q8 приточной вентиляции</frname>
+	</item>
+	<item>
+		<varname>IN_COND_VENTS_MACHN_ON</varname>
+		<frname>Включение автоматического выключателя 4Q14 вентиляторов конденсаторов</frname>
+	</item>
+	<item>
+		<varname>IN_COMPR_START_DENIED_15C</varname>
+		<frname>Запрет включения компрессора при температуре в УКВ менее 15 ºС</frname>
+	</item>
+	<item>
+		<varname>IN_LOW_P_UKV_RELAY</varname>
+		<frname>Реле низкого давления УКВ</frname>
+	</item>
+	<item>
+		<varname>IN_HIGH_P_UKV_RELAY</varname>
+		<frname>Реле высокого давления УКВ</frname>
+	</item>
+	<item>
+		<varname>IN_220_MAINLINE_RESERVE</varname>
+		<frname>Включение резервирования основной сети питания ~ 220 В (Цепи 1765, 1767)</frname>
+	</item>
+	<item>
+		<varname>IN_PN_1_WORK</varname>
+		<frname>Работа ПН-1 (5U1)</frname>
+	</item>
+	<item>
+		<varname>IN_220V</varname>
+		<frname>Наличие 220В в основной сети питания ~ 220 В (Цепи 1765, 1767)</frname>
+	</item>
+	<item>
+		<varname>IN_220_MAINLINE_TEST</varname>
+		<frname>ТЕСТ –РКИ основной сети питания ~ 220 В (Цепи 1765, 1767)</frname>
+	</item>
+	<item>
+		<varname>IN_LOW_INSUL_RES_220V</varname>
+		<frname>Контроль изоляции основной сети питания ~ 220 В, 50 Гц (Цепи 1765, 1767)</frname>
+	</item>
+	<item>
+		<varname>IN_FRIDGE_BOX</varname>
+		<frname>Морозильный шкаф 5А16</frname>
+	</item>
+	<item>
+		<varname>IN_FRIDGE_BOX_UNIVERSAL</varname>
+		<frname>Холодильный шкаф универсальный 5А17</frname>
+	</item>
+	<item>
+		<varname>IN_PN_2_WORK</varname>
+		<frname>Работа ПН-2 (5U2)</frname>
+	</item>
+	<item>
+		<varname>IN_220_TEST_PN2</varname>
+		<frname>ТЕСТ –РКИ сети питания ~ 220 В от ПН-2 (5U2)</frname>
+	</item>
+	<item>
+		<varname>IN_INSUL_CTRL_PN2</varname>
+		<frname>Контроль изоляции сети ~ 220 В, 50 Гц от ПН-2 (5U2)</frname>
+	</item>
+	<item>
+		<varname>IN_WC_WASTEPIPE_HEAT</varname>
+		<frname>Обогрев угольника унитаза</frname>
+	</item>
+	<item>
+		<varname>IN_WASTEPIPE_HEAT</varname>
+		<frname>Обогрев труб</frname>
+	</item>
+	<item>
+		<varname>IN_BOILER_BAR</varname>
+		<frname>Водонагреватель бара</frname>
+	</item>
+	<item>
+		<varname>IN_UPH_GV_PUMP_KITCHEN</varname>
+		<frname>Насос УПХиГВ кухня </frname>
+	</item>
+	<item>
+		<varname>IN_UPH_GV_HEAT_KITCHEN</varname>
+		<frname>Нагрев УПХиГВ кухня </frname>
+	</item>
+	<item>
+		<varname>IN_UPH_GV_PUMP_WC</varname>
+		<frname>Насос УПХиГВ туалета</frname>
+	</item>
+	<item>
+		<varname>IN_UPH_GV_HEAT_WC</varname>
+		<frname>Нагрев УПХиГВ туалета</frname>
+	</item>
+	<item>
+		<varname>IN_COMBI_OVEN_1</varname>
+		<frname>Пароконвектомат №1</frname>
+	</item>
+	<item>
+		<varname>IN_220_SOCKET_VAC_CLEAN</varname>
+		<frname>Розетки 220В пылесоса салон</frname>
+	</item>
+	<item>
+		<varname>IN_COFFEE_MACHINE</varname>
+		<frname>Кофемашина бар</frname>
+	</item>
+	<item>
+		<varname>IN_DISPOSE_WASHING</varname>
+		<frname>Измельчитель отходов мойка</frname>
+	</item>
+	<item>
+		<varname>IN_MICROWAVE_BAR</varname>
+		<frname>Печь МВ 2 бара</frname>
+	</item>
+	<item>
+		<varname>IN_MICROWAVE_KITCHEN</varname>
+		<frname>Печь МВ 1 кухни</frname>
+	</item>
+	<item>
+		<varname>IN_DISPOSE_KITCHEN</varname>
+		<frname>Измельчитель отходов кухня</frname>
+	</item>
+	<item>
+		<varname>IN_COOL_TABLE</varname>
+		<frname>Холодильный стол кухня</frname>
+	</item>
+	<item>
+		<varname>IN_COOL_BOX</varname>
+		<frname>Холодильный шкаф кухня</frname>
+	</item>
+	<item>
+		<varname>IN_COOL_SHOWBOX</varname>
+		<frname>Витрина холодильная кухня</frname>
+	</item>
+	<item>
+		<varname>IN_BAR_SOCKETS</varname>
+		<frname>Розетки 220В бар</frname>
+	</item>
+	<item>
+		<varname>IN_TV_SERVER</varname>
+		<frname>Телевизоры, сервер</frname>
+	</item>
+	<item>
+		<varname>IN_HTANK_ANTIFREEZ_HEAT</varname>
+		<frname>Тосольный обогрев бака накопителя</frname>
+	</item>
+	<item>
+		<varname>IN_HTANK_ELECTRO_HEAT</varname>
+		<frname>Электрообогрев бака накопителя</frname>
+	</item>
+	<item>
+		<varname>IN_BRAKES_FAILURE</varname>
+		<frname>Неотпуск тормозов</frname>
+	</item>
+	<item>
+		<varname>IN_HANDBRAKE</varname>
+		<frname>Ручной стояночный тормоз</frname>
+	</item>
+	<item>
+		<varname>IN_WATER_LEVEL_100</varname>
+		<frname>100 АУВ</frname>
+	</item>
+	<item>
+		<varname>IN_WATER_LEVEL_75</varname>
+		<frname>75 АУВ</frname>
+	</item>
+	<item>
+		<varname>IN_WATER_LEVEL_50</varname>
+		<frname>50 АУВ</frname>
+	</item>
+	<item>
+		<varname>IN_WATER_LEVEL_25</varname>
+		<frname>25 АУВ</frname>
+	</item>
+	<item>
+		<varname>IN_AUV_VOLTAGE</varname>
+		<frname>Включение АУВ</frname>
+	</item>
+	<item>
+		<varname>IN_ALARM</varname>
+		<frname>Поступление сигнала тревога</frname>
+	</item>
+	<item>
+		<varname>IN_DGA_FUEL_LEVEL_10</varname>
+		<frname>Уровень топлива в баке менее 10%</frname>
+	</item>
+	<item>
+		<varname>IN_DGA_FUEL_LEVEL_30</varname>
+		<frname>Уровень топлива в баке более 30%</frname>
+	</item>
+	<item>
+		<varname>IN_DGA_FUEL_LEVEL_70</varname>
+		<frname>Уровень топлива в баке более 70%</frname>
+	</item>
+	<item>
+		<varname>IN_DGA_FUEL_LEVEL_95</varname>
+		<frname>Уровень топлива в баке более 95%</frname>
+	</item>
+	<item>
+		<varname>IN_CP_TEMP</varname>
+		<frname>Температура воздуха в салоне</frname>
+	</item>
+	<item>
+		<varname>IN_BOILER_TEMP</varname>
+		<frname>Температура воздуха в ВВ котле</frname>
+	</item>
+	<item>
+		<varname>IN_TEMP_1</varname>
+		<frname>Температура воздуха в воздуховоде 1 (Салон)</frname>
+	</item>
+	<item>
+		<varname>IN_TEMP_2</varname>
+		<frname>Температура воздуха в воздуховоде 2 (Кухня)</frname>
+	</item>
+	<item>
+		<varname>IN_UKV_COOLANT_TEMP_1</varname>
+		<frname>Температура испарителя 1 (Салон) УКВ</frname>
+	</item>
+	<item>
+		<varname>IN_UKV_COOLANT_TEMP_2</varname>
+		<frname>Температура испарителя 2 (Кухня) УКВ</frname>
+	</item>
+	<item>
+		<varname>IN_COMPR_START_READY</varname>
+		<frname>Готовность к включению компрессоров УКВ</frname>
+	</item>
+	<item>
+		<varname>IN_EXTERNAL_POWER</varname>
+		<frname>Электроснабжение вагона от генератора или внешней сети 380В</frname>
+	</item>
+	<item>
+		<varname>IN_CONSUMER_MANUAL</varname>
+		<frname>Ручной режим управления потребителями</frname>
+	</item>
+	<item>
+		<varname>IN_WC_PIPE_HEAT_MANUAL</varname>
+		<frname>Ручной режим управления обогревом сливных труб и угольника унитаза</frname>
+	</item>
+	<item>
+		<varname>IN_HV_PUMP_MANUAL</varname>
+		<frname>Ручной режим управления циркуляционным насосом системы В/В отопления</frname>
+	</item>
+	<item>
+		<varname>IN_FUEL_LINE_HEAT_MNL</varname>
+		<frname>Ручной режим управления жидкостным обогревом топливопровода</frname>
+	</item>
+	<item>
+		<varname>IN_FUEL_LINE_HEAT</varname>
+		<frname>Включение обогрева топливопровода ДГА</frname>
+	</item>
+	<item>
+		<varname>IN_PCH_WORK_1</varname>
+		<frname>Работа ПЧ – 1 канал</frname>
+	</item>
+	<item>
+		<varname>IN_PCH_WORK_2</varname>
+		<frname>Работа ПЧ – 2 канал</frname>
+	</item>
+	<item>
+		<varname>IN_PCH_WORK_3</varname>
+		<frname>Работа ПЧ – 3 канал</frname>
+	</item>
+	<item>
+		<varname>IN_PCH_FAILURE_1</varname>
+		<frname>Авария ПЧ – 1 канал</frname>
+	</item>
+	<item>
+		<varname>IN_PCH_FAILURE_2</varname>
+		<frname>Авария ПЧ – 2 канал</frname>
+	</item>
+	<item>
+		<varname>IN_PCH_FAILURE_3</varname>
+		<frname>Авария ПЧ – 3 канал</frname>
+	</item>
+	<item>
+		<varname>IN_WC_MANUAL_MODE</varname>
+		<frname>Ручной режим туалета</frname>
+	</item>
+	<item>
+		<varname>IN_WC_1_DOOR_CLOSED</varname>
+		<frname>Занятость туалета 1 (или дверь закрыта на ключ)</frname>
+	</item>
+</map>
